@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url("./assets/fonts/IRANSansWeb_Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/IRANSansWeb_Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/IRANSansWeb_Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url("./assets/fonts/IRANSansWeb_Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url("./assets/fonts/IRANSansWeb_UltraLight.woff2");
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/IRANSansWeb.woff2") format("woff2");
+}
+
+html,
+body {
+    width: 100% !important;
+    height: 100%;
+    direction: rtl;
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+
+.ant-menu {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+
+.ant-table-wrapper .ant-table {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.center-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ant-btn {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.ant-modal {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-modal .ant-modal-title {
+    color: #999b1d;
+    font-weight: bold;
+}
+.ant-btn-primary {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.ant-modal-content {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.ant-form {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.rmdp-calendar {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-form-item .ant-form-item-label > label {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+}
+.ant-input {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+    border-color: #50187a;
+    border-style: dashed;
+}
+.ant-form-item-control-input {
+    font-family:
+        IRANSans,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid San s,
+        Helvetica Neue,
+        sans-serif !important;
+    border-color: #50187a;
+    border-style: dashed;
+}
+.ant-menu-inline {
+    color: #50187a;
+    font-weight: bold;
+}
